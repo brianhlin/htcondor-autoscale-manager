@@ -29,6 +29,8 @@ jobs:
           image: 'opensciencegrid' 
         - series: '24'
           image: 'osg-htc'
+        - series: '25'
+          image: 'osg-htc'
         os: ['el9']
         repo: ['development', 'testing', 'release']
     steps:
